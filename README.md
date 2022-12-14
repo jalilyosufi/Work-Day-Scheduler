@@ -1,10 +1,8 @@
 # Third-Party APIs: Work Day Scheduler
+https://jalilyosufi.github.io/Work-Day-Scheduler/
+## Desciption
 
-## Your Task
-
-Create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
-
-You'll need to use the [Moment.js](https://momentjs.com/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Moment.js in the browser.
+Simple calendar application that allows a user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
 
 ## User Story
 
@@ -16,72 +14,36 @@ SO THAT I can manage my time effectively
 
 ## Acceptance Criteria
 
-The app should:
+```
 
-* Display the current day at the top of the calender when a user opens the planner.
+* GIVEN I am using a daily planner to create my daily scheduale.
+
+* WHEN i open the daily planner aplication.
+
+* THEN the current date of the day displayed at the top of the planner.
+
+* WHEN I scrolls down I am present with timeblocks for standard business hours.
  
-* Present timeblocks for standard business hours when the user scrolls down.
+* WHEN I review the time blocks.
+
+* THEN each time block colored to show the present, past and future.
  
-* Color-code each timeblock based on past, present, and future when the timeblock is viewed.
- 
-* Allow a user to enter an event when they click a timeblock
+* WHEN I click a timeblock.
 
-* Save the event in local storage when the save button is clicked in that timeblock.
+* THEN I can enter an event.
 
-* Persist events between refreshes of a page
+* WHEN I click the save button in the time block.
 
-The following animation demonstrates the application functionality:
+* THEN the event is saved in the local storage.
 
-![A user clicks on slots on the color-coded calendar and edits the events.](./images/05-third-party-apis-homework-demo.gif)
+* When i refresh the page.
 
+* Then the save events persist.
+```
 
-## Grading Requirements
-
-This homework is graded based on the following criteria: 
-
-### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the above acceptance criteria plus the following:
-
-  * Uses a date utility library to work with date and time
-
-### Deployment: 32%
-
-* Application deployed at live URL
-
-* Application loads with no errors
-
-* Application GitHub URL submitted
-
-* GitHub repo contains application code
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate
-
-* Application user interface style is clean and polished
-
-* Application resembles the mock-up functionality provided in the homework instructions
-
-### Repository Quality: 13%
-
-* Repository has a unique name
-
-* Repository follows best practices for file structure and naming conventions
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages
-
-* Repository contains quality README file with description, screenshot, and link to deployed application
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application
-
-* The URL of the GitHub repository, with a unique name and a README describing the project
-
----
-© 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+## Usage
+- This work day scheduler display work hour of the day from 8am to 5pm.
+- On the top of the page you can see the current date of the day.
+- Each time block is colored to show whether it is in the present(Red), past(Gray) or future(Green).
+![Alt text](images/Web%20capture_14-12-2022_9480_127.0.0.1.jpeg)
+- Each time block has an input area where user can write and save the stored contain with the save button.
